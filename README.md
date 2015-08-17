@@ -1,7 +1,12 @@
 #ESP-07 &amp; ESP-12(E) Breakout Adapter
 
-##Getestet/Verifiziert
+###Enwicklungszustand: Getestet/Verifiziert (15. Aug 2015)
 
+###Features
+* 3V3 Spannungswandler On-Board
+* Breadboard kompatibel
+* Flash und Reset Taster
+* ESP gebrauchsfertig beschaltet
 
 ###Partlist:
 **ESP8266**
@@ -16,7 +21,7 @@
 * 1x - 22µF(>3V3) (Tantal) - []
 
 **Switches**
-* 2x - Tactile Switch - [THT]
+* 2x - Tactile Switch - [THT/SMD]
 
 **Resistors**
 * 2x - 0 Ohm - 10K - [0805]
