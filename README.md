@@ -14,14 +14,14 @@
 * 1x - 100nF - [0805]
 * 1x - 10µF(>15V) (Tantal) - []
 * 1x - 22µF(>3V3) (Tantal) - []
-* 
+
 **Switches**
 * 2x - Tactile Switch - [THT]
-* 
+
 **Resistors**
 * 2x - 0 Ohm - 10K - [0805]
 * 2x - 10K - [0805]
-* 
+
 **Pin Header**
 * 2x - 1x2 - [THT]
 * 1x - 1x6 - [THT]
