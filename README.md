@@ -40,5 +40,5 @@ Version 1.1 (15. Aug 2015)
 * Bestückungsdruck auf der Rückseite von bNames nach bPlace
 * Leiterbahnen mehr Platz verschafft
 * Schrift dicker gemacht
-* Vreg Out-Kondensator von 10µF auf 22µF erhöht
+* Vreg Ausgangskondensator von 10µF auf 22µF erhöht
 * GND Vias Bohrung von 0.03149606 auf 0.02755906 verkleinert (hidden vias?)
