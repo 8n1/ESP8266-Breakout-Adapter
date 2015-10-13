@@ -1,44 +1,10 @@
-#ESP-07 &amp; ESP-12(E) Breakout Adapter
+###ESP-07 & ESP-12 Breakout Adapter
 
-###Enwicklungszustand: Getestet/Verifiziert (15. Aug 2015)
+####Version 1.1
+LDO: LM1117
 
-###Features
-* 3V3 Spannungswandler On-Board
-* Breadboard kompatibel
-* Flash und Reset Taster
-* ESP gebrauchsfertig beschaltet
+####Version 2.0A
+LDO: AS1363
 
-###Partlist:
-**ESP8266**
-* 1x - ESP-07 / ESP12(E) - []
-
-**Vreg**
-* 1x - LM1117-3-3 - [SOT223]
-
-**Caps**
-* 1x - 100nF - [0805]
-* 1x - 10µF(>15V) (Tantal) - []
-* 1x - 22µF(>3V3) (Tantal) - []
-
-**Switches**
-* 2x - Tactile Switch - [THT/SMD]
-
-**Resistors**
-* 2x - 0 Ohm - 10K - [0805]
-* 2x - 10K - [0805]
-
-**Pin Header**
-* 2x - 1x2 - [THT]
-* 1x - 1x6 - [THT]
-* 2x - 1x8 - [THT]
-
-
-###Changelog
-Version 1.1 (15. Aug 2015)
-* Bestückungsdruck zurecht gerückt
-* Bestückungsdruck für ESP-12E Leiste unten ergänzt
-* Bestückungsdruck auf der Rückseite von bNames nach bPlace
-* Leiterbahnen mehr Platz verschafft
-* Schrift dicker gemacht
-* Vreg Ausgangskondensator von 10µF auf 22µF erhöht
-* GND Vias Bohrung von 0.03149606 auf 0.02755906 verkleinert (hidden vias?)
+####Version 2.0B
+LDO: SPX3819
