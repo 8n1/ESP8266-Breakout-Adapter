@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.2">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1750,7 +1750,7 @@ design rules under a new name.</description>
 </element>
 <element name="JP1" library="pinhead" package="1X02" value="GND | 5V" x="27.180709375" y="11.430640625" smashed="yes" rot="R90"/>
 <element name="JP2" library="pinhead" package="1X02" value="GND | 3V3" x="4.316159375" y="11.426784375" smashed="yes" rot="R270"/>
-<element name="C2" library="rcl" package="B/3528-21W" value="22µF" x="11.85955625" y="24.59755625" smashed="yes" rot="MR90">
+<element name="C2" library="rcl" package="B/3528-21W" value="10µF" x="11.85955625" y="24.59755625" smashed="yes" rot="MR90">
 <attribute name="NAME" x="13.20555625" y="23.66355625" size="1.27" layer="22" rot="MR90"/>
 </element>
 <element name="R2" library="rcl" package="R0805" value="0 Ohm" x="20.13055625" y="25.20955625" smashed="yes" rot="MR270">

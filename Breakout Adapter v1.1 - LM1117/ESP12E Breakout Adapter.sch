@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.2">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13063,7 +13063,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0805K" value="100nF"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X2" device="" value="GND | 5V"/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X2" device="" value="GND | 3V3"/>
-<part name="C2" library="rcl" deviceset="CPOL-EU" device="B/3528-21W" value="22µF"/>
+<part name="C2" library="rcl" deviceset="CPOL-EU" device="B/3528-21W" value="10µF"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="0 Ohm"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="0 Ohm"/>
 <part name="RESET_SWITCH" library="switch-omron" deviceset="10-XX" device="" value="RESET"/>
