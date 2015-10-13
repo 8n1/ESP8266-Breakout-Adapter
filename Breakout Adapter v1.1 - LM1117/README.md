@@ -34,11 +34,11 @@ Version 1.1 (15. Aug 2015)
 * Bestückungsdruck zurecht gerückt
 * Bestückungsdruck für ESP-12E Leiste unten ergänzt
 * Bestückungsdruck auf der Rückseite von bNames nach bPlace
-* Leiterbahnen mehr Platz verschafft
+* Routing optimiert
 * Schrift dicker gemacht
 * GND Vias Bohrung von 0.03149606 auf 0.02755906 verkleinert
 
 
 ###Resourcen:
-AMS1117 Datenblatt - http://www.advanced-monolithic.com/pdf/ds1117.pdf
-LM1117 Datenblatt - 
+* AMS1117 Datenblatt - http://www.advanced-monolithic.com/pdf/ds1117.pdf
+* LM1117 Datenblatt - http://www.ti.com/lit/ds/symlink/lm1117-n.pdf
