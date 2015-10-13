@@ -4,25 +4,24 @@
 * 3V3 Spannungswandler (LM1117/AMS1117/..)
 * Breadboard kompatibel
 * Flash und Reset Taster
-* ESP gebrauchsfertig beschaltbar - CH_PD(HIGH), GPIO0(HIGH)
+* Pullup Widerstände für CH_PD und GPIO0
 
 ###Partlist:
 **ESP8266**
 * 1x - ESP-07 / ESP12(E)
 
 **Vreg**
-* 1x - LM1117-3-3 - [SOT223]
+* 1x - x1117-3.3 - [SOT223]
 
 **Caps**
 * 1x - 100nF - [0805]
-* 2x - 10µF(>16V) (Tantal)
+* 2x - 10µF(>16V)
 
 **Switches**
 * 2x - Tactile Switch - [THT/SMD]
 
 **Resistors**
-* 2x - 0 Ohm - 10K - [0805]
-* 2x - 10K - [0805]
+* 4x - 10K - [0805]
 
 **Pin Header**
 * 2x - 1x2 - [THT]
@@ -38,3 +37,8 @@ Version 1.1 (15. Aug 2015)
 * Leiterbahnen mehr Platz verschafft
 * Schrift dicker gemacht
 * GND Vias Bohrung von 0.03149606 auf 0.02755906 verkleinert
+
+
+###Resourcen:
+AMS1117 Datenblatt - http://www.advanced-monolithic.com/pdf/ds1117.pdf
+LM1117 Datenblatt - 
