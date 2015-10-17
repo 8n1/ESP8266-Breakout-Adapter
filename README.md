@@ -17,3 +17,15 @@ Used LDO: SPX3819
 Vin=3.7-16V, Dropout=340mV(-550mV), Iq=90µA
 
 oshpark: https://oshpark.com/shared_projects/jsl8ZcFp
+
+####Version 2.0C Mini(untested)
+Used LDO: AS1363
+Vin=3.5-5.5V, Dropout=150mV(-320mV), Iq=40µA
+
+oshpark: https://oshpark.com/shared_projects/a54UaUOD
+
+####Version 2.0D Mini (untested)
+Used LDO: SPX3819 
+Vin=3.7-16V, Dropout=340mV(-550mV), Iq=90µA
+
+oshpark: https://oshpark.com/shared_projects/cSArTj4n
