@@ -14744,6 +14744,7 @@ github.com/8n1/ESP8266-Breakout-Adapter</text>
 <text x="86.36" y="139.7" size="1.778" layer="91">VIN = 3.5-16V
 VCC = 3.3V</text>
 <text x="137.16" y="35.56" size="1.778" layer="91">Led Voltage</text>
+<text x="175.26" y="106.68" size="1.778" layer="91">LDO Enable</text>
 </plain>
 <instances>
 <instance part="C1" gate="G$1" x="66.04" y="127"/>
@@ -14774,7 +14775,7 @@ VCC = 3.3V</text>
 <instance part="GND4" gate="1" x="66.04" y="48.26"/>
 <instance part="C3" gate="G$1" x="109.22" y="129.54"/>
 <instance part="GND7" gate="1" x="66.04" y="109.22"/>
-<instance part="EN" gate="G$1" x="182.88" y="104.14" rot="R270"/>
+<instance part="EN" gate="G$1" x="182.88" y="111.76" rot="R270"/>
 <instance part="R5" gate="G$1" x="218.44" y="134.62" rot="R90"/>
 <instance part="DS" gate="G$1" x="180.34" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="177.8" y="30.48" size="1.778" layer="95" rot="R90"/>
@@ -14798,7 +14799,9 @@ VCC = 3.3V</text>
 <instance part="ON/OFF-SWITCH" gate="G$1" x="208.28" y="124.46" smashed="yes">
 <attribute name="NAME" x="188.595" y="133.35" size="1.778" layer="95"/>
 </instance>
-<instance part="VIN" gate="G$1" x="50.8" y="121.92" rot="R270"/>
+<instance part="VIN" gate="G$1" x="50.8" y="121.92" smashed="yes" rot="R270">
+<attribute name="NAME" x="52.07" y="118.745" size="1.778" layer="95" rot="R180"/>
+</instance>
 <instance part="LED_VOLTAGE" gate="G$1" x="144.78" y="22.86" smashed="yes" rot="R90">
 <attribute name="VALUE" x="146.685" y="25.4" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -15202,10 +15205,10 @@ VCC = 3.3V</text>
 <junction x="200.66" y="124.46"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="106.68" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="114.3" x2="182.88" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="EN" gate="G$1" pin="1"/>
-<junction x="182.88" y="114.3"/>
-<label x="182.88" y="116.84" size="1.778" layer="95"/>
+<junction x="182.88" y="124.46"/>
+<label x="182.88" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SET/BYP" class="0">
@@ -15248,22 +15251,18 @@ VCC = 3.3V</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,81.28,132.08,AS1363,IN,VIN,,,"/>
-<approved hash="104,1,106.68,124.46,AS1363,BYP,SET/BYP,,,"/>
-<approved hash="104,1,106.68,132.08,AS1363,OUT,VCC,,,"/>
 <approved hash="105,1,200.66,-12.7,FRAMED,,,,,"/>
+<approved hash="108,1,238.76,12.7,FRAMED,,,,,"/>
+<approved hash="108,1,162.56,-12.7,FRAMED,,,,,"/>
 <approved hash="108,1,238.76,3.81,FRAMED,,,,,"/>
 <approved hash="108,1,162.56,3.81,FRAMED,,,,,"/>
-<approved hash="108,1,162.56,-12.7,FRAMED,,,,,"/>
-<approved hash="108,1,238.76,12.7,FRAMED,,,,,"/>
-<approved hash="113,1,184.281,106.443,EN,,,,,"/>
+<approved hash="113,1,184.281,114.063,EN,,,,,"/>
 <approved hash="113,1,178.824,33.02,DS,,,,,"/>
 <approved hash="113,1,216.577,70.9253,JP2,,,,,"/>
 <approved hash="113,1,179.663,73.8547,JP1,,,,,"/>
-<approved hash="113,1,154.94,39.4208,LED_VOLTAGE,,,,,"/>
-<approved hash="113,1,155.262,24.13,LED1,,,,,"/>
-<approved hash="113,1,153.945,33.02,R7,,,,,"/>
-<approved hash="113,1,167.962,24.13,LED2,,,,,"/>
+<approved hash="113,1,144.78,19.1008,LED_VOLTAGE,,,,,"/>
+<approved hash="113,1,145.102,3.81,LED,,,,,"/>
+<approved hash="113,1,143.785,12.7,R7,,,,,"/>
 </errors>
 </schematic>
 </drawing>

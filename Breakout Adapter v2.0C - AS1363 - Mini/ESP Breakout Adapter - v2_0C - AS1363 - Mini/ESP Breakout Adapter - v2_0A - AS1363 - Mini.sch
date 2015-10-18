@@ -14726,6 +14726,7 @@ github.com/8n1/ESP8266-Breakout-Adapter</text>
 <text x="86.36" y="139.7" size="1.778" layer="91">VIN = 3.5-5.5V
 VCC = 3.3V</text>
 <text x="137.16" y="35.56" size="1.778" layer="91">Led Voltage</text>
+<text x="175.26" y="106.68" size="1.778" layer="91">LDO Enable</text>
 </plain>
 <instances>
 <instance part="C1" gate="G$1" x="68.58" y="127"/>
@@ -14759,7 +14760,7 @@ VCC = 3.3V</text>
 </instance>
 <instance part="C3" gate="G$1" x="109.22" y="129.54"/>
 <instance part="GND7" gate="1" x="68.58" y="109.22"/>
-<instance part="EN" gate="G$1" x="182.88" y="104.14" rot="R270"/>
+<instance part="EN" gate="G$1" x="182.88" y="111.76" rot="R270"/>
 <instance part="R5" gate="G$1" x="218.44" y="134.62" rot="R90"/>
 <instance part="DS" gate="G$1" x="180.34" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="177.8" y="30.48" size="1.778" layer="95" rot="R90"/>
@@ -15181,10 +15182,10 @@ VCC = 3.3V</text>
 <junction x="200.66" y="124.46"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="106.68" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="114.3" x2="182.88" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="EN" gate="G$1" pin="1"/>
-<junction x="182.88" y="114.3"/>
-<label x="182.88" y="116.84" size="1.778" layer="95"/>
+<junction x="182.88" y="124.46"/>
+<label x="182.88" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SET/BYP" class="0">
