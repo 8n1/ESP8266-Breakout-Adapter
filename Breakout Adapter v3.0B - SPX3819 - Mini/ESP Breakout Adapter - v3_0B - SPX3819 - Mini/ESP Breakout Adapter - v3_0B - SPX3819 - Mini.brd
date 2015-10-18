@@ -212,7 +212,7 @@
 <text x="18.2499" y="1.4478" size="0.8128" layer="21" ratio="12" rot="R180">Flash</text>
 <text x="9.9187" y="1.4605" size="0.8128" layer="21" ratio="12" rot="R180">Reset</text>
 <text x="12.319" y="29.6545" size="0.8128" layer="22" ratio="12" rot="MR0" align="top-center">ESP8266 Breakout
-SPX Mini Adapter v2.0D
+SPX Mini Adapter v3.0B
 
 VIN=3.8-16V (500mA)
 Iq=90µA, Ishdn=&lt;1µA</text>
@@ -330,10 +330,10 @@ Iq=90µA, Ishdn=&lt;1µA</text>
 <wire x1="21.336" y1="12.192" x2="22.733" y2="13.462" width="0.127" layer="21" curve="-90"/>
 <text x="5.08" y="5.842" size="0.6096" layer="21" ratio="12">hold down Flash during Reset</text>
 <text x="9.906" y="6.985" size="0.6096" layer="21" ratio="12">UART boot: </text>
-<text x="20.4851" y="27.3177" size="0.6096" layer="21" ratio="12" rot="R270">2.0D</text>
+<text x="20.4851" y="27.3177" size="0.6096" layer="21" ratio="12" rot="R270">3.0B</text>
 <text x="12.446" y="23.0505" size="0.8128" layer="21" ratio="12" align="top-center">ESP8266 Breakout
 SPX Mini Adapter</text>
-<text x="4.2799" y="25.1333" size="0.6096" layer="21" ratio="12" rot="R90">2.0D</text>
+<text x="4.2799" y="25.1333" size="0.6096" layer="21" ratio="12" rot="R90">3.0B</text>
 </plain>
 <libraries>
 <library name="pinhead">

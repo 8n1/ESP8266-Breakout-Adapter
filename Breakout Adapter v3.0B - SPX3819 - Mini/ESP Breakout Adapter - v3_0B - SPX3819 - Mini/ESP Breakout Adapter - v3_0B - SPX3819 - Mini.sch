@@ -14731,7 +14731,7 @@ Source: http://www.osram.convergy.de/</description>
 <sheet>
 <plain>
 <text x="165.1" y="-10.16" size="1.778" layer="91">ESP8266 Breakout - ESP-07/ESP-12
-SPX Mini Adapter v2.0D
+SPX Mini Adapter v3.0B
 
 Date: 17. Oktober 2015
 License: CC-BY-SA
