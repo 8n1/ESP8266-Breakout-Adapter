@@ -23,7 +23,7 @@ V1.1 - OSH Park renderings<br />
 
 
 ### Features
-* LM1117 Voltage regulator (or pin compatible)
+* LM1117-3.3 Voltage regulator (or pin compatible)
 * Flash and Reset switch
 * Pullup resistors for Reset, CH_PD and GPIO0
 * Pulldown resistor for GPIO15
