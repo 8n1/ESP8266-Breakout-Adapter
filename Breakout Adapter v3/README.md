@@ -45,9 +45,9 @@ V3.1B - OSH Park renderings<br />
 | Part  | Value                     | Info                |
 |:------|:--------------------------|:--------------------|
 | IC1   | SPX3819M5-L-3-3 (SOT23-5) | Voltage regulator - Variant "A" |
-| IC1   | AS1363-BSTT-33 (SOT23-6) | Voltage regulator - Variant "B" |
-| C1    | 10µF (Ceramic, 0805)      | Input capacitor for IC1 |
-| C2    | 10µF (Ceramic, 0805)      | Output capacitor for IC1 |
+| IC1   | AS1363-BSTT-33 (SOT23-6)  | Voltage regulator - Variant "B" |
+| C1    | 10µF (Ceramic, 0805)      | Input capacitor for the voltage regulator |
+| C2    | 10µF (Ceramic, 0805)      | Output capacitor for the voltage regulator |
 | C3    | 100nF (Ceramic, 0805)     | Decoupling capacitor for the ESP module |
 | R1    | 10K (0805) *              | Pullup resistor for CH_PD |
 | R2    | 10K (0805) *              | Pulldown resistor for GPIO15 |
@@ -66,11 +66,15 @@ V3.1B - OSH Park renderings<br />
 \* **or** 0Ohm resistor/solderbridge if pin is not needed<br /> 
 \** if the led is connected to GPIO13 the led current must be lower then 12mA, calculate the resister value accordingly!
 
+Pullup and Pulldown resistors(**R1, R2, R3, R4, R7**)  can range from 4.7K to 10K.  
+Pullup and Pulldown resistor for the LDO enable pin(**R5, R6**) should be 10K or higher (100K max).  
+Input and output capacitors for the voltage regualtor(**C1, C2**) are LOW ESR ceramic types. (I'm using: SAMSUNG CL21A106KOQNNNG)  
+
 Pinheader
 * 2x 1x10 (2.54mm)
 
 Optional "socket" header for the esp module
-* 2x 1x8 (2mm) female and male
+* 2x 1x8 (2mm) female and male pin header
 
 ### Difference between variant A and B
 The only difference is the used LDO. Variant A uses the AS1363, variant B the SPX3819(or pincompatible).
