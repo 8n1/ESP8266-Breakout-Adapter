@@ -20,7 +20,7 @@ V3.1B - OSH Park renderings<br />
 <img src="https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/8ab8bf034a2089dc2fbfab833ebf3101.png" width="300" alt="ESP-12 Breakout Adapter V1.1 - Back" />
 <br />
 ### Schematic
-<img src="https://raw.githubusercontent.com/8n1/ESP8266-Breakout-Adapter/master/Breakout%20Adapter%20v3.0B%20-%20SPX3819%20-%20Mini/ESP%20Breakout%20Adapter%20-%20v3_0B%20-%20SPX3819%20-%20Mini_sch.png" width="600" alt="ESP-12 Breakout Adapter V1.1 - Schematic" />
+<img src="https://raw.githubusercontent.com/8n1/ESP8266-Breakout-Adapter/master/Breakout%20Adapter%20v3/ESP%20Breakout%20Adapter%20v3.1B%20-%20SPX3819%20-%20Mini/ESP%20Breakout%20Adapter%20-%20v3_1B%20-%20SPX3819%20-%20Mini_sch.png" width="600" alt="ESP-12 Breakout Adapter V3.1 - Schematic" />
 
 
 ### Features
