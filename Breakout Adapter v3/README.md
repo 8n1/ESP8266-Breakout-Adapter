@@ -38,7 +38,7 @@ V3.1B - OSH Park renderings<br />
 * Breadboard compatible -> 3 rows stay free
 * Very small
 
-\* Can be used to completly shutdown the board and everything connected to it. The current consumption in this state will typically be &lt;1µA. 
+\* Can be used to completly shutdown the board and everything connected to it. The current consumption in this state will typically be &lt;1µA.  
 \** Can be used to externaly turn the board on if the On/Off switch is set to "Off", or off if the On/Off switch is set to "On".
 
 ### Partlist (v3.1)
