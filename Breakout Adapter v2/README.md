@@ -4,9 +4,6 @@
 **No updates yet**
 
 ### Pictures
-V2.0A - Bare PCB<br />
-<img src="https://github.com/8n1/ESP8266-Breakout-Adapter/blob/master/Breakout%20Adapter%20v1.1%20-%20LM1117/Pictures%20(PCB)/ESP12E%20Breakout%20Adapter%20-%20V1-0.jpeg" width="600" alt="ESP-12 Breakout Adapter V1.0 - Bare PCB" />
-<br />
 V2.0A - OSH Park renderings<br />
 <img src="https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/155e047f43987161602c911e067b01d4.png" width="300" alt="ESP-12 Breakout Adapter V1.1 - Front" />&nbsp;
 <img src="https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/1fb6627899a7fd7488e3e4fad130234f.png" width="300" alt="ESP-12 Breakout Adapter V1.1 - Back" />
