@@ -1,5 +1,6 @@
 ## V1 - 1117 Adapter
 <br />
+
 ### Changelog/Updates: <br />
 V1.1 - Aug, 2015
 - Silkscreen optimizations
@@ -8,7 +9,7 @@ V1.1 - Aug, 2015
 - Smaller gnd vias (0.02755906)
 
 V1.0 - Jun, 2015
-- Initial upload
+- First version
 
 ### Pictures
 V1.0 - Bare PCB<br />
@@ -23,8 +24,8 @@ V1.1 - OSH Park renderings<br />
 
 
 ### Features
-* LM1117-3.3 Voltage regulator (or pin compatible)
-* Flash and Reset switch
+* LM1117 Voltage regulator (or pin compatible)
+* Flash und Reset switch
 * Pullup resistors for Reset, CH_PD and GPIO0
 * Pulldown resistor for GPIO15
 * ESP-12E bottom header brougth out (see note)
@@ -34,7 +35,7 @@ V1.1 - OSH Park renderings<br />
 ##### Note: The additional bottom header on the ESP-12E can not be used without modifying the ESP module:
 http://www.esp8266.com/viewtopic.php?f=32&t=4094
 
-### Partlist
+### Partlist (v1.1)
 | Part  | Value                      | Info                |
 |:------|:---------------------------|:--------------------|
 | IC1   | LM1117 or pincompatible    | Voltage regulator |
@@ -53,16 +54,18 @@ http://www.esp8266.com/viewtopic.php?f=32&t=4094
 Pinheader
 * 2x 1x8 (2.54mm)
 * 2x 1x2 (2.54mm)
-* (1x 1x6  (2.54mm))
+* (1x 1x6  (2.54mm)) - "E header"
 <br />
 Optional "socket" for the esp module
 * 2x 1x8 (2mm)
-* (1x 1x6 (2mm))
+* (1x 1x6 (2mm)) - "E header"
 
 
 #### Resources:
 - LM1117 Datasheet - http://www.ti.com/lit/ds/symlink/lm1117-n.pdf
 - AMS1117 Datasheet - http://www.advanced-monolithic.com/pdf/ds1117.pdf
+
+- More Pictures - http://imgur.com/a/fsVE8 (imgur album)
 
 #### This adapter on OSH Park:
 - ESP8266 Breakout v1.1 - https://oshpark.com/shared_projects/9CsYq2PY
