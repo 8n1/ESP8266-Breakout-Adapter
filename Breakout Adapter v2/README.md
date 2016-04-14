@@ -4,9 +4,9 @@
 **No updates yet**
 
 ### Pictures
-V2.0A - OSH Park renderings<br />
-<img src="https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/155e047f43987161602c911e067b01d4.png" width="300" alt="ESP-12 Breakout Adapter V1.1 - Front" />&nbsp;
-<img src="https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/1fb6627899a7fd7488e3e4fad130234f.png" width="300" alt="ESP-12 Breakout Adapter V1.1 - Back" />
+V2.0B - OSH Park renderings<br />
+<img src="https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/cda4885ff9c815bfce81c57c0f935989.png" width="300" alt="ESP-12 Breakout Adapter V2.0B - oshpark rendering - Front" />&nbsp;
+<img src="https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/7dc941ad2a23355561b62406c76aa261.png" width="300" alt="ESP-12 Breakout Adapter V2.0B - oshpark rendering - Back" />
 <br />
 ### Schematic
 <img src="https://raw.githubusercontent.com/8n1/ESP8266-Breakout-Adapter/master/Breakout%20Adapter%20v2/Breakout%20Adapter%20v2.0B%20-%20SPX3819/ESP%20Breakout%20Adapter%20-%20v2_0B%20-%20SPX3819_schematic.png" width="600" alt="ESP-12 Breakout Adapter V2.0B - Schematic" />
