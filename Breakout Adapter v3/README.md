@@ -66,6 +66,7 @@ V3.1B - OSH Park renderings<br />
 \* **or** 0Ohm resistor/solderbridge if pin is not needed<br /> 
 \** if the led is connected to GPIO13 the led current must be lower then 12mA, calculate the resister value accordingly!
 
+Note:  
 Pullup and Pulldown resistors(**R1, R2, R3, R4, R7**)  can range from 4.7K to 10K.  
 Pullup and Pulldown resistor for the LDO enable pin(**R5, R6**) should be 10K or higher (100K max).  
 Input and output capacitors for the voltage regualtor(**C1, C2**) are LOW ESR ceramic types. (I'm using: SAMSUNG CL21A106KOQNNNG)  
