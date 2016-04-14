@@ -6,7 +6,7 @@ V3.1 - Nov, 2015
 - Footprint for VREG input and output capacitors changed from 1206 to 0805
 - VREG bypass capacitor (C3) removed
 - Bigger solderpads for the tactile switches
-- Pullup resistor for GPIO2 added
+- Pullup resistor for GPIO2 added (R7)
 - Part numbers on bottom side replaced with actual values
 - Layout optimized
 - Silkscreen fix (description of where the led is connected to was swapped: 3V3<->GPIO13)
