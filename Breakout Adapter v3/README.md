@@ -83,7 +83,7 @@ The only difference is the used LDO. Variant A uses the AS1363, variant B the SP
 - More Pictures V3.0 - http://imgur.com/a/w46x3 (imgur album)
 
 #### This adapter on OSH Park:
-- ESP8266 Breakout v3.1A - https://oshpark.com/shared_projects/2IkxaFPm
+- ESP8266 Breakout v3.1A - https://oshpark.com/shared_projects/RfAN6raq
 - ESP8266 Breakout v3.1B - https://oshpark.com/shared_projects/jsl8ZcFp
 
 #### License
