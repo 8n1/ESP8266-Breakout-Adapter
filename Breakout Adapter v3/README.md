@@ -61,7 +61,7 @@ V3.1B - OSH Park renderings<br />
 | DS    | Solderbridge       | DeepSleep wake-up jumper |
 | FLASH | Tactile Pushbutton SMD 2pin 6x3       | Flash button |
 | RESET | Tactile Pushbutton SMD 2pin 6x3       | Reset button |
-| On/Off | SMD slide switch (<a href="http://www.ebay.at/itm/20PCS-Mini-Slide-Power-Off-On-Panel-PCB-MINI-SMD-Solder-Switch-SPM-/120731615109">One of these</a>)       | On/Off switch |
+| On/Off | SMD slide switch (DK: CKN10374CT-ND) (ebay: <a href="http://www.ebay.at/itm/20PCS-Mini-Slide-Power-Off-On-Panel-PCB-MINI-SMD-Solder-Switch-SPM-/120731615109">One of these</a>)       | On/Off switch |
 
 \* **or** 0Ohm resistor/solderbridge if pin is not needed<br /> 
 \** if the led is connected to GPIO13 the led current must be lower then 12mA, calculate the resister value accordingly!
