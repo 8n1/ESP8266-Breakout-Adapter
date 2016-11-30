@@ -44,8 +44,8 @@ V3.1B - OSH Park renderings<br />
 ### Partlist (v3.1)
 | Part  | Value                     | Info                |
 |:------|:--------------------------|:--------------------|
-| IC1   | SPX3819M5-L-3-3 (SOT23-5) | Voltage regulator - Variant "A" |
-| IC1   | AS1363-BSTT-33 (SOT23-6)  | Voltage regulator - Variant "B" |
+| IC1   | AS1363-BSTT-33 (SOT23-6)  | Voltage regulator - Variant "A" |
+| IC1   | SPX3819M5-L-3-3 (SOT23-5) | Voltage regulator - Variant "B" |
 | C1    | 10µF (Ceramic, 0805)      | Input capacitor for the voltage regulator |
 | C2    | 10µF (Ceramic, 0805)      | Output capacitor for the voltage regulator |
 | C3    | 100nF (Ceramic, 0805)     | Decoupling capacitor for the ESP module |
