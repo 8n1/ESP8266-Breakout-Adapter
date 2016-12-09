@@ -42,7 +42,7 @@ V2.0B - OSH Park renderings<br />
 | R2    | 10K (0805) *              | Pulldown resistor for GPIO15  |
 | R3    | 10K (0805)                | Pullup resistor for Reset |
 | R4    | 10K (0805)                | Pullup resistor for GPIO0 |
-| R5/R8 | 10K-100K (0805)           | Pullup OR Pulldown for the LDO enable pin |
+| R5,R8 | 10K-100K (0805)           | Pullup OR Pulldown for the LDO enable pin |
 | R9    | 10K (0805)                | [Optional] Pullup resistor for GPIO12 |
 | R10   | 10K (0805)                | [Optional] Pullup resistor for GPIO14 |
 | R7    | ~220 Ohm (0805)           | [Optional] Current limiting resistor for the led ** |
