@@ -39,20 +39,20 @@ http://www.esp8266.com/viewtopic.php?f=32&t=4094
 | Part  | Value                      | Info                |
 |:------|:---------------------------|:--------------------|
 | IC1   | LM1117 or pincompatible    | Voltage regulator |
-| C1    | 10µF (Tantalum, Case B)      | Input capacitor for IC1 |
+| C1    | 10µF (Tantalum, Case B)      | Input capacitor for IC1 (see the Datasheet)|
 | C2    | 10µF (Tantalum, Case B)      | Output capacitor for IC1 (see the Datasheet)|
 | C3    | 100nF (Ceramic, 0805)      | Decoupling capacitor for the ESP module |
 | R1    | 10K (0805) *               | Pullup resistor for CH_PD |
 | R2    | 10K (0805) *               | Pulldown resistor for GPIO15 |
 | R3    | 10K (0805)                 | Pullup resistor for Reset |
 | R4    | 10K (0805)                 | Pullup resistor for GPIO0 |
-| SW1   | Tactile switch (THT)       | Flash switch |
-| SW2   | Tactile switch (THT)       | Reset switch |
+| SW1   | Tactile switch (4pin,6x6,THT)       | Flash switch |
+| SW2   | Tactile switch (4pin,6x6,THT)       | Reset switch |
 
 \* **or** 0Ohm resistor/solderbridge if pin is not needed
 
 Note:  
-Pullup and Pulldown resistors(R1, R2, R3, R4) can range from 4.7K to 10K.  
+Pullup and Pulldown resistors(R1, R2, R3, R4) should range from 4.7K to 10K.  
 Output capacitor for the voltage regualtor(C2) should be a tantalum type. (See the datasheet)
 
 Pinheader
